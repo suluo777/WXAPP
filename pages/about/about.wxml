@@ -1,2 +1,10 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<!-- 数据绑定: {{}} Mustache语法 -->
+<view>Hello {{name}}</view>
+<view>我的年龄: {{age}}</view>
+<!--  列表展示 wx:for-->
+<view wx:for="{{students}}">{{item.name}}---{{item.age}}</view>
+<!-- 事件监听改变data -->
+<view>当前计数:{{counter}}</view>
+<button size="small" bindtap="handleBtnClick">+</button>
+<navigator url="/pages/home/home">跳转到首页</navigator>

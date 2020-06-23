@@ -1,7 +1,31 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/profile/profile",
+    "pages/category/category"
   ],
-  "sitemapLocation": "sitemap33.json"
+  "window": {
+    "navigationBarBackgroundColor": "#00A1D6",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "首页",
+    "backgroundColor": "orange",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#00A1D6",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/tabbar/author_2.jpg",
+      "selectedIconPath": "assets/tabbar/author_1.jpg"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "assets/tabbar/author_3.jpg",
+      "selectedIconPath": "assets/tabbar/author_4.jpg"
+    }]
+  },
+  "sitemapLocation": "sitemap32.json"
 }

@@ -52,4 +52,4 @@
 		</form>
 	</view>
 </view>
-<view></view>
+<navigator url="/pages/about/about">跳转到新页面</navigator>
