@@ -19,12 +19,27 @@
       "text": "首页",
       "iconPath": "assets/tabbar/author_2.jpg",
       "selectedIconPath": "assets/tabbar/author_1.jpg"
-    },
+    }
+    ,
     {
       "pagePath": "pages/about/about",
       "text": "关于",
       "iconPath": "assets/tabbar/author_3.jpg",
       "selectedIconPath": "assets/tabbar/author_4.jpg"
+    }
+    ,
+    {
+      "pagePath": "pages/category/category",
+      "text": "内置组件",
+      "iconPath": "assets/tabbar/author_5.jpg",
+      "selectedIconPath": "assets/tabbar/author_6.jpg"
+    }
+    ,
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "swiper",
+      "iconPath": "assets/tabbar/author_7.jpg",
+      "selectedIconPath": "assets/tabbar/author_8.jpg"
     }]
   },
   "sitemapLocation": "sitemap32.json"

@@ -1,2 +1,17 @@
 <!--pages/category/category.wxml-->
-<text>pages/category/category.wxml</text>
+<!-- 1、 button -->
+<button size="mini">按钮1</button>
+<button size="mini">按钮2</button>
+<button size="mini" type="primary">按钮3</button>
+<button size="mini" type="warn">按钮4</button>
+<button size="mini" plain>按钮5</button>
+<button size="mini" loading="{{isLoading}}">按钮6</button>
+<button size="mini" hover-class="hover">按钮7</button>
+
+<!-- 2、 text -->
+<text></text>
+<!-- 3、 view -->
+<view class="box">hello world</view>
+<view class="box1" hover-class="hover-view" 
+                   hover-stay-time="{{1000}}"
+                   hover-start-time="{{1000}}">hello window</view>

@@ -6,5 +6,5 @@
 <view wx:for="{{students}}">{{item.name}}---{{item.age}}</view>
 <!-- 事件监听改变data -->
 <view>当前计数:{{counter}}</view>
-<button size="small" bindtap="handleBtnClick">+</button>
+<button size="small" bindtap="handleBtnClick" type="warn">+</button>
 <navigator url="/pages/home/home">跳转到首页</navigator>
