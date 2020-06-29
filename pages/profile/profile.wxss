@@ -1,1 +1,10 @@
 /* pages/progile/profile.wxss */
+/* 轮播图 */
+.swiper{
+  height: 300px;
+  width: 100%;
+}
+.swiper image{
+  height: 100%;
+  width: 100%;
+}

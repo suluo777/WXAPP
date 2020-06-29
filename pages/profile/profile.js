@@ -8,7 +8,7 @@ Page({
   },
 
   data: {
-    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    background: ['/assets/tabbar/lover_1.jpg','/assets/tabbar/lover_2.jpg', '/assets/tabbar/lover_3.jpg','/assets/tabbar/lover_4.jpg', '/assets/tabbar/lover_5.jpg','/assets/tabbar/lover_3.jpg'],
     indicatorDots: true,
     vertical: false,
     autoplay: false,
